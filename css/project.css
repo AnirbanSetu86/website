@@ -1,0 +1,147 @@
+*{
+	margin:0;
+	padding: 0
+}
+
+
+header{
+	background:#807ecc;
+	padding: 18px 2px;
+}
+
+.container{
+	width: 1200px;
+	margin:auto;
+	overflow: hidden;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.logo img{
+	max-width: 100%;
+}
+
+nav{
+	width: 80%;
+    float: left;
+}
+nav ul{
+	text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li a{
+	color: white;
+    padding: 10px 10px;
+    font-size: 15px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+color: purple;
+}
+
+.heading{
+	text-align: center;
+    padding: 90px 0;
+    background: #807ecc;
+    color: white;
+}
+
+.heading h1{
+	font-size: 48px;
+	padding: 10px 0;
+}
+.heading p{
+	font-size: 18px;
+}
+
+.part-one, .part-two, .part-three, .part-four, .part-five
+{
+	padding-top: 90px;
+}
+
+.col{
+
+	width: 50%;
+	float: left;
+}
+
+.row{
+	padding:30px;
+}
+
+.row img{
+	max-width: 100%;
+}
+
+.row p{
+	font-size: 18px;
+	padding-top: 10px;
+}
+
+.row h1{
+font-size: 20px;
+margin: 15px 0 ;
+}
+
+.touch {
+   
+    font-size: 18px;
+    background-color: #1c1571bf;
+    padding: 20px 15px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+   
+.touch a{
+	color:white;
+	text-decoration: none;
+}
+
+
+footer{
+	background-color: #e1e1f094;
+	padding-top: 20px;
+}
+.box{
+	width: 25%;
+	float: left;
+}
+
+.box p{
+  margin-top: 15px;
+  font-size: 16px;
+  color: black;
+}
+
+ .box .menu ul li {
+  list-style: none;
+  
+  }
+
+ .box .menu ul li a {
+ font-size: 16px;
+ text-decoration: none;
+ padding: 8px 0;
+ display: block;
+ color: black;
+
+}
+
+.end {
+  padding: 40px;
+}
+
+.box .menu ul {
+  margin-top: 25px;
+}
+
+.end h2 {
+  font-size: 18px;
+  color: #000000a3;
+}
